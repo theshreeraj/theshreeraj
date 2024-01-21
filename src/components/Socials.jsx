@@ -52,13 +52,13 @@ const projectData = [
 
 function Socials() {
   return (
-    <div className="grid auto-rows-[300px] grid-cols-3 gap-x-2 gap-y-2">
+    <div className="grid auto-rows-[300px] grid-cols-1 md:grid-cols-3 gap-x-2 gap-y-2">
       {projectData.map((project, index) => (
         <a
           key={index}
           href={project.link}
           className={`rounded-xl  bg-[#131315]  dark:bg-neutral-900 ${
-            (index === 3 || index === 6) && "col-span-2"
+            (index === 3 || index === 6) && "md:col-span-2"
           }`}
           style={{ height: "300px" }}
         >
