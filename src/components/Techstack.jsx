@@ -46,7 +46,7 @@ function Techstack() {
 
   return (
     <div
-      className="flex overflow-hidden my-2 mx-12 max-md:grid max-md:auto-cols-[1fr] max-md:gap-x-2 max-md:gap-y-2 max-md:grid-cols-[1fr_1fr] max-md:grid-rows-[auto_auto]"
+      className="flex overflow-hidden my-2 mx-2 md:mx-12 max-md:grid max-md:auto-cols-[1fr] max-md:gap-x-2 max-md:gap-y-2 max-md:grid-cols-[1fr_1fr] max-md:grid-rows-[auto_auto]"
       ref={sliderRef}
       style={{ transition: "transform 0.5s ease-in-out" }}
     >
