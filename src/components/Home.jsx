@@ -46,22 +46,7 @@ function Home() {
           <img
             className="flex flex-col justify-between items-stretch gap-x-4 gap-y-2 bg-[#131315] text-center  rounded-xl max-md:p-8"
             src={theshreerajAvatar}
-          >
-            {/* <img src={theshreerajAvatar}></img> */}
-            {/* <div className="flex flex-col justify-center items-center mb-8 gap-3 max-md:mb-4">
-              <ContactIcon className="w-[112px] h-[112px] flex-[0_0_auto]" />
-              <h2 className="max-md:text-[40px] max-md:leading-[48px] max-md:tracking-[-0.01em]">
-                Have a project in mind?
-              </h2>
-            </div>
-            <a
-              href="mailto:saipranayadepu@gmail.com"
-              className="min-h-[96px] bg-[#ff5e1a] transition-[background-color] duration-300 ease-[ease-out] text-[40px] leading-[48px] font-medium text-center tracking-[-0.01em] px-8 py-6 rounded-[99px] max-md:min-h-[80px] max-md:text-2xl max-md:leading-8 text-white"
-            >
-              hey@pranay.com
-              <span className=" animate-pulse">👋</span>
-            </a> */}
-          </img>
+          ></img>
         </div>
       </FadeIn>
       <FadeIn>

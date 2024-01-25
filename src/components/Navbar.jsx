@@ -1,7 +1,7 @@
 import React from "react";
 import { FadeIn } from "./FadeIn";
 
-const navlinkes = [
+const navlinks = [
   {
     name: "home.",
     link: "#home",
@@ -24,7 +24,7 @@ function Navbar() {
             theshreeraj
           </span>
           <div className="flex justify-end items-center gap-x-8 gap-y-8 max-md:gap-3 max-sm:hidden">
-            {navlinkes.map((navlink) => (
+            {navlinks.map((navlink) => (
               <a
                 href={navlink.link}
                 className={`md:w-[120px] transition-all duration-300 ease-[ease-out] text-[#8a8a93] text-lg leading-6 text-center tracking-[-0.01em] px-6 max-md:px-2 py-0 hover:text-white ${
@@ -38,8 +38,8 @@ function Navbar() {
         </div>
 
         <div className="flex w-full justify-center items-center sm:hidden">
-          <div className="flex justify-around items-center gap-x-8 gap-y-8 max-w-[1240px]  bg-[#131315] px-8 py-4 rounded-full fixed bottom-5 mx-auto">
-            {navlinkes.map((navlink) => (
+          <div className="flex justify-around items-center gap-x-8 gap-y-8 max-w-[1240px]  bg-[#131315] px-8 py-4 rounded-full fixed bottom-5 mx-auto z-50">
+            {navlinks.map((navlink) => (
               <a
                 href={navlink.link}
                 className={`md:w-[120px] transition-all duration-300 ease-[ease-out] text-[#8a8a93] text-lg leading-6 text-center tracking-[-0.01em] px-6 max-md:px-2 py-0 hover:text-white ${
