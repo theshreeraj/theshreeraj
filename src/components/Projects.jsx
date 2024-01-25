@@ -50,7 +50,7 @@ const projectData = [
   // Add other image data here...
 ];
 
-function Socials() {
+function Projects() {
   return (
     <div className="grid auto-rows-[300px] grid-cols-1 md:grid-cols-3 gap-x-2 gap-y-2">
       {projectData.map((project, index) => (
@@ -85,4 +85,4 @@ function Socials() {
   );
 }
 
-export default Socials;
+export default Projects;

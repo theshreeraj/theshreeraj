@@ -4,7 +4,7 @@ import shreeraj from "../assets/shreeraj.jpg";
 import theshreerajAvatar from "../assets/theshreeraj avatar.png";
 import { ContactIcon } from "./Icons";
 import { FadeIn } from "./FadeIn";
-import Socials from "./Socials";
+import Socials from "./Projects";
 
 function Home() {
   return (
@@ -53,7 +53,7 @@ function Home() {
         <Socials />
       </FadeIn>
       <FadeIn>
-        <div className="flex w-full flex-col items-start gap-x-8 gap-y-8 bg-[#131315] px-12 py-10 rounded-3xl max-mdd:max-w-none max-md:p-8">
+        <div className="flex w-full flex-col items-start gap-x-8 gap-y-8 bg-[#131315] px-12 py-10 mt-3 rounded-xl max-mdd:max-w-none max-md:p-8">
           <h3 className="max-md:text-[32px] max-md:leading-10 max-md:tracking-[-0.01em]">
             I am a passionate Frontend developer with a love for frontend and
             design. Currently working on a side project called theshutterstory.{" "}
