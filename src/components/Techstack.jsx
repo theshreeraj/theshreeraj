@@ -46,7 +46,7 @@ function Techstack() {
 
   return (
     <div
-      className="flex overflow-hidden my-2 max-md:grid max-md:auto-cols-[1fr] max-md:gap-x-2 max-md:gap-y-2 max-md:grid-cols-[1fr_1fr] max-md:grid-rows-[auto_auto]"
+      className="flex overflow-hidden my-2 mx-12 max-md:grid max-md:auto-cols-[1fr] max-md:gap-x-2 max-md:gap-y-2 max-md:grid-cols-[1fr_1fr] max-md:grid-rows-[auto_auto]"
       ref={sliderRef}
       style={{ transition: "transform 0.5s ease-in-out" }}
     >
@@ -54,7 +54,7 @@ function Techstack() {
         <a
           key={index}
           href={social.link}
-          className="flex w-full min-h-[56px] justify-center items-center bg-[#131315] transition-[background-color] duration-300 ease-[ease-out] text-white text-lg leading-6 text-center tracking-[-0.01em] px-6 py-4 rounded-[99px]"
+          className="flex w-full min-h-[56px] justify-center items-center bg-[#131315] transition-[background-color] duration-300 ease-[ease-out] text-white text-md leading-6 text-center tracking-[-0.01em] m-1 px-6 py-4 rounded-[9px]"
         >
           {social.name}
         </a>
