@@ -44,7 +44,7 @@ function Home() {
             </p>
           </div>
           <img
-            className="flex flex-col justify-between items-stretch gap-x-4 gap-y-2 bg-[#131315] text-center  rounded-xl max-md:p-8"
+            className="flex flex-col justify-between items-stretch gap-x-4 gap-y-2 bg-[#131315] text-center  rounded-xl"
             src={theshreerajAvatar}
           ></img>
         </div>

@@ -3,14 +3,17 @@ import { FadeIn } from "./FadeIn";
 
 const navlinks = [
   {
+    id: "1",
     name: "home.",
     link: "#home",
   },
   {
+    id: "2",
     name: "work.",
     link: "#work",
   },
   {
+    id: "3",
     name: "contact.",
     link: "#contact",
   },
@@ -26,6 +29,7 @@ function Navbar() {
           <div className="flex justify-end items-center gap-x-8 gap-y-8 max-md:gap-3 max-sm:hidden">
             {navlinks.map((navlink) => (
               <a
+                key={navlink.id}
                 href={navlink.link}
                 className={`md:w-[120px] transition-all duration-300 ease-[ease-out] text-[#8a8a93] text-lg leading-6 text-center tracking-[-0.01em] px-6 max-md:px-2 py-0 hover:text-white ${
                   navlink.link === "#home" ? "text-white" : ""
