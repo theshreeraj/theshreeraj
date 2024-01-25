@@ -18,11 +18,11 @@ function Home() {
                 alt="Shreeraj Mane"
                 className="overflow-hidden w-[108px] h-[108px] flex-[0_0_auto] rounded-full"
               />
-              <div>
-                <p className="text-lg leading-6 -translate-x-[0.01em]">
+              <div className="">
+                <p className="ml-5 mt-8 text-md leading-6 -translate-x-[0.01em]">
                   Hi, I'm Shreeraj Mane
                 </p>
-                <p className="text-lg leading-6 -translate-x-[0.01em]">
+                <p className="ml-5 text-md leading-6 -translate-x-[0.01em]">
                   UX Designer & Front-end Developer
                 </p>
               </div>
