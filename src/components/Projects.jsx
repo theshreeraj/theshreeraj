@@ -52,7 +52,10 @@ const projectData = [
 
 function Projects() {
   return (
-    <div className="grid auto-rows-[300px] grid-cols-1 md:grid-cols-3 gap-x-2 gap-y-2">
+    <div
+      className="grid auto-rows-[300px] grid-cols-1 md:grid-cols-3 gap-x-2 gap-y-2"
+      id="projects"
+    >
       {projectData.map((project, index) => (
         <a
           key={index}

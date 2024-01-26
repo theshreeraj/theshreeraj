@@ -3,7 +3,10 @@ import intro from "../assets/intro.png";
 
 const Connect = () => {
   return (
-    <div className="md:flex justify-between w-full grid-cols-8 items-start gap-x-8 gap-y-8 bg-gradient-to-tr from-gray-400 from-2% via-white-200 via-30% to-white to-99%  px-12 py-10 mt-3 rounded-xl max-mdd:max-w-none max-md:p-8">
+    <div
+      className="md:flex justify-between w-full grid-cols-8 items-start gap-x-8 gap-y-8 bg-gradient-to-tr from-gray-400 from-2% via-white-200 via-30% to-white to-99%  px-12 py-10 mt-3 rounded-xl max-mdd:max-w-none max-md:p-8"
+      id="connect"
+    >
       <div className="md:mt-8">
         <p className="max-md:text-[32px] text-2xl font-bold max-md:leading-10 col-span-5 max-md:tracking-[-0.01em]">
           After Office Hours{" "}
